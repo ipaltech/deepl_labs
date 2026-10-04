@@ -24,7 +24,7 @@ $$
 ##  Архітектура й ініціалізація
 
 $$
-X\to\operatorname{Linear}(4,8)\to\operatorname{ReLU}\to\operatorname{Linear}(8,3).
+X\to\mathrm{Linear}(4,8)\to\mathrm{ReLU}\to\mathrm{Linear}(8,3).
 $$
 
 | Параметр | Розмірність NumPy | Ініціалізація | Стандартне відхилення |
@@ -40,7 +40,7 @@ $$
 Формули для forward-pass:
 
 $$
-Z_1=XW_1+b_1,\qquad A_1=\operatorname{ReLU}(Z_1),\qquad Z_2=A_1W_2+b_2.
+Z_1=XW_1+b_1,\qquad A_1=\mathrm{ReLU}(Z_1),\qquad Z_2=A_1W_2+b_2.
 $$
 
 
